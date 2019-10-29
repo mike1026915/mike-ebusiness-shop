@@ -1,6 +1,7 @@
 import fetch from 'isomorphic-unfetch';
 
-const rootUrl = "http://127.0.0.1:5000/api/v1/";
+//const rootUrl = "http://127.0.0.1:5000/api/v1/";
+const rootUrl = "https://mike-eb-api.herokuapp.com/api/v1";
 const productUrl = rootUrl + "product"
 const orderUrl = rootUrl + "order"
 const data1 = [
